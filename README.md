@@ -21,7 +21,7 @@ We get around the 5 Keyword limit by using Google Sheets to do Batching. We requ
 
 ## Automation
 
-We use [Prefect Cloud][3] to automate the entire process from extraction to upload. Check out the example notebook 
+We use [Prefect Cloud][3] to automate the entire process from extraction to upload. Check out the example [notebook](./Share%20of%20Search) 
 
 ## Upload and Storage
 
