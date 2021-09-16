@@ -27,9 +27,9 @@ We use [Prefect Cloud][3] to automate the entire process from extraction to uplo
 
 We upload the results of the `pytrends` requests to the [Google Big Query][2] data warehouse for safe keeping in the cloud and further processing.
 
-## Tableau Visualisation
+<!-- ## Tableau Visualisation
 
-The included Tableau notebook provides an interactive map to visualize the Data accross the Regions within the United States. The user can select the desired `Data Feed`, and the coresponding data will be filtered for the visualization. We also provide a scrollable pane of stacked bar charts where each bar corresponds to a particular DMA and each section of the bar represents a keywords. Tableau allows us to show the Top keyword per `Data Feed`.
+The included Tableau notebook provides an interactive map to visualize the Data accross the Regions within the United States. The user can select the desired `Data Feed`, and the coresponding data will be filtered for the visualization. We also provide a scrollable pane of stacked bar charts where each bar corresponds to a particular DMA and each section of the bar represents a keywords. Tableau allows us to show the Top keyword per `Data Feed`.-->
 
 ## Caveats
 
