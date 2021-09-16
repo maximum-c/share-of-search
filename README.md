@@ -18,8 +18,11 @@ We get around the 5 Keyword limit by using Google Sheets to do Batching. We requ
 ### [Example Spreadsheet](https://docs.google.com/spreadsheets/d/1j0TPffBKwwTioU5e8NGYlQ9Ui1aFmBArozujGx7Ywts/edit?usp=sharing)
 
 
+## Script
 
-## Automation
+There are two versions of the Share of Search project, one is a script designed to be run locally and the other is designed with orchestration and Automatation in mind. The script is pretty simple, on execution prompting the user to provide an exact `filepath` to a service account credential JSON. The User is then prompted to provide the exact name of the Google Worksheet. Then the script works its magic and returns two CSV files with data from the Last Week in the Working Directory.
+
+## Flow
 
 We use [Prefect Cloud][3] to automate the entire process from extraction to upload. Check out the example [notebook](./Share%20of%20Search) 
 
